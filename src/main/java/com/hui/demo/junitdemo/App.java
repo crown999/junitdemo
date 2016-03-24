@@ -21,11 +21,5 @@ public class App {
 		
 	}
 	
-	public boolean checkAccount(String name, String pwd){
-		if("grey".equals(name)&&"1989927".equals(pwd)){
-			return true;
-		}else{
-			return false;
-		}
-	}
+	
 }
