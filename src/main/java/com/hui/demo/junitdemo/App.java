@@ -20,4 +20,12 @@ public class App {
 		System.out.println("Password：" + password);
 		
 	}
+	
+	public boolean checkAccount(String name, String pwd){
+		if("grey".equals(name)&&"1989927".equals(pwd)){
+			return true;
+		}else{
+			return false;
+		}
+	}
 }
